@@ -1,0 +1,4 @@
+2026-11-03T15:38:41 System.InvalidOperationException: Insufficient stock.
+   at TradingInventory.EntryControl.<>c__DisplayClass14_0.<Save>b__0(SqlConnection c, SqlTransaction t) in C:\Users\asus\Downloads\TradingInventory\TradingInventory\EntryControl.cs:line 36
+   at TradingInventory.Db.Tx(Action`2 a) in C:\Users\asus\Downloads\TradingInventory\TradingInventory\Db.cs:line 21
+   at TradingInventory.EntryControl.Save(Object s, EventArgs e) in C:\Users\asus\Downloads\TradingInventory\TradingInventory\EntryControl.cs:line 34
